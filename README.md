@@ -2,7 +2,7 @@
 ♞ Knight's Shortest Path Finder
 This JavaScript module finds the shortest path a knight can take on a standard 8x8 chessboard from one square to another.
 
-📜 Description
+Description
 A knight moves in an L-shape (two squares in one direction and one square perpendicular to that). 
 This module:
 
