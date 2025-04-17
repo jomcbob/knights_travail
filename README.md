@@ -51,9 +51,6 @@ Logs the coordinates of each step in the path.
 
 Example:
 
-js
-Copy
-Edit
 findMoves([0, 0], [7, 7]);
 // Output:
 // 7,7 found!
@@ -63,7 +60,3 @@ findMoves([0, 0], [7, 7]);
 // 2: [2, 4]
 // ...
 // n: [7, 7]
-✅ Requirements
-JavaScript ES6+
-
-Can be run in a browser or Node.js environment
