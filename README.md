@@ -21,3 +21,6 @@ Uses Breadth-First Search (BFS) to find the shortest path from a starting positi
 
 movesForKnight([x, y])
 Returns all valid knight moves from the given coordinate on an 8x8 board.
+
+findMoves([x, y], [x, y])
+gives all moves needed to get from the first to the second input (uses movesForKnight)
