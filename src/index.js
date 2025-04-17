@@ -1,5 +1,4 @@
 // index.js
-import { greeting } from "./page1.js";
-import "./styles.css";
+import {findMoves } from "./page1.js"
 
-console.log(greeting);
+findMoves([0, 0], [7, 7])
