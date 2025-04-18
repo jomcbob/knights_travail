@@ -1,26 +1,33 @@
+# ♞ Knight's Shortest Path Finder
 
-♞ Knight's Shortest Path Finder
-This JavaScript module finds the shortest path a knight can take on a standard 8x8 chessboard from one square to another.
+A JavaScript module that finds the shortest path a knight can take on a standard 8×8 chessboard from one square to another.
 
-Description
-A knight moves in an L-shape (two squares in one direction and one square perpendicular to that). 
-This module:
+---
 
-Calculates all valid moves for a knight from a given position
+## 📖 Description
 
-Uses Breadth-First Search (BFS) to find the shortest path from a starting position to a destination
+A knight moves in an L-shape: two squares in one direction, then one square perpendicular to that. This module:
 
- Features
- Calculates all legal knight moves from any given position
+- Calculates all valid knight moves from a given position
+- Uses **Breadth-First Search (BFS)** to find the shortest path between two points
+- Ensures optimal paths by avoiding revisiting squares
 
- Finds the shortest sequence of moves to reach a target square
+---
 
- Prevents revisiting squares to ensure optimal pathfinding
+## ✨ Features
 
- Usage
+- ✅ Calculates all legal knight moves from any position
+- 🧠 Uses BFS for shortest-path calculations
+- 🛡️ Prevents cycles to maintain optimal performance
 
-movesForKnight([x, y])
-Returns all valid knight moves from the given coordinate on an 8x8 board.
+---
 
-findMoves([x, y], [x, y])
-gives all moves needed to get from the first to the second input (uses movesForKnight)
+## 🚀 Usage
+
+### `movesForKnight([x, y])`
+
+Returns all valid knight moves from the given coordinate on an 8×8 board.
+
+```js
+movesForKnight([3, 3]);
+// ➞ [[1, 2], [1, 4], [2, 1], [2, 5], [4, 1], [4, 5], [5, 2], [5, 4]]
