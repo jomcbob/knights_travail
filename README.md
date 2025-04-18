@@ -42,5 +42,5 @@ Gives all moves needed to get from the first to the second input (uses `movesFor
 findMoves([0, 0], [7, 7]);
 // ➞ [[0, 0], [2, 1], [3, 3], [5, 4], [7, 5], [6, 7], [7, 7]]
 ```
-
+![Example GIF](src/assets/giphy.gif)
 
