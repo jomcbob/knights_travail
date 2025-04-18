@@ -1,4 +1,4 @@
-# ♞ Knight's Shortest Path Finder
+# ♞ Knight's Travail
 
 A JavaScript module that finds the shortest path a knight can take on a standard 8×8 chessboard from one square to another.
 
