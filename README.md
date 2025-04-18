@@ -43,6 +43,6 @@ findMoves([0, 0], [7, 7]);
 // ➞ [[0, 0], [2, 1], [3, 3], [5, 4], [7, 5], [6, 7], [7, 7]]
 ```
 
-![Example GIF] https://github.com/jomcbob/knights_travail/blob/main/src/assets/giphy.gif
+![Example GIF] (src/assets/giphy.gif)
 
 
