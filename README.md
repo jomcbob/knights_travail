@@ -14,7 +14,7 @@ A knight moves in an L-shape: two squares in one direction, then one square perp
 
 ---
 
-## Features
+### Features
 
 -  Calculates all legal knight moves from any position  
 -  Uses BFS for shortest-path calculations
