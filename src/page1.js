@@ -49,5 +49,5 @@ const findMoves = (start, toFind) => {
         })
     }
 }
-
+// ![Example GIF](src/assets/giphy.gif)
 export { findMoves }
