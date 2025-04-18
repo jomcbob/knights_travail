@@ -4,7 +4,7 @@ A JavaScript module that finds the shortest path a knight can take on a standard
 
 ---
 
-## 📖 Description
+## Description
 
 A knight moves in an L-shape: two squares in one direction, then one square perpendicular to that. This module:
 
@@ -16,13 +16,12 @@ A knight moves in an L-shape: two squares in one direction, then one square perp
 
 ## ✨ Features
 
-- ✅ Calculates all legal knight moves from any position
-- 🧠 Uses BFS for shortest-path calculations
-- 🛡️ Prevents cycles to maintain optimal performance
+-  Calculates all legal knight moves from any position
+-  Uses BFS for shortest-path calculations
 
 ---
 
-## 🚀 Usage
+##   Usage
 
 ### `movesForKnight([x, y])`
 
@@ -31,3 +30,8 @@ Returns all valid knight moves from the given coordinate on an 8×8 board.
 ```js
 movesForKnight([3, 3]);
 // ➞ [[1, 2], [1, 4], [2, 1], [2, 5], [4, 1], [4, 5], [5, 2], [5, 4]]
+
+### `findMoves([startX, startY], [endX, endY])`
+```js
+findMoves([0, 0], [7, 7]);
+// ➞ [[0, 0], [2, 1], [3, 3], [5, 4], [7, 5], [6, 7], [7, 7]]
