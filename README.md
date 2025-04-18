@@ -31,8 +31,6 @@ Returns all valid knight moves from the given coordinate on an 8×8 board.
 movesForKnight([3, 3]);
 // ➞ [[1, 2], [1, 4], [2, 1], [2, 5], [4, 1], [4, 5], [5, 2], [5, 4]]
 
-## 
-### `findMoves([startX, startY], [endX, endY])`
-```js
 findMoves([0, 0], [7, 7]);
 // ➞ [[0, 0], [2, 1], [3, 3], [5, 4], [7, 5], [6, 7], [7, 7]]
+
