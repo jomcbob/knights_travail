@@ -10,7 +10,7 @@ A knight moves in an L-shape: two squares in one direction, then one square perp
 
 - Calculates all valid knight moves from a given position
 - Uses **Breadth-First Search (BFS)** to find the shortest path between two points
-- Ensures optimal paths by avoiding revisiting squares
+- Ensures the shortest path by avoiding revisiting squares
 
 ---
 
