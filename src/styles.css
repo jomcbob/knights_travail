@@ -1,7 +1,175 @@
 body {
-  height: 100vh;
-  background: linear-gradient(
-    rgba(86, 32, 184, 0.8),
-    rgba(8, 8, 8, 0) 70.71%
-  );
+  font-family: sans-serif;
+  text-align: center;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95svh;
+}
+
+#board {
+  display: grid;
+  height: 72svh;
+  width: 72svh;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 1px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.square {
+  width: 9svh;
+  height: 9svh;
+  line-height: 10svh;
+  font-weight: bold;
+  font-size: 5svh;
+  cursor: url('assets/knight_icon.png'), auto;
+}
+
+.white {
+  background: #eee;
+}
+
+.black {
+  background: #444;
+}
+
+.path {
+  background-color: yellow !important;
+}
+
+.start {
+  background-color: green !important;
+}
+
+.end {
+  background-color: red !important;
+}
+
+#resetBtn {
+  width: 20svh;
+  height: 5svh;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 3svh;
+  border: 2px solid black;
+  transition: transform 0.5s ease;
+}
+
+#resetBtn:hover {
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  transform: scale(1.3)
+}
+
+footer {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: end;
+}
+
+a {
+  display: inline-block;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.5s ease;
+  transform-origin: center center; 
+}
+
+a:hover {
+  transform: rotate(-10deg) scale(1.3);
+  text-decoration: underline;
+}
+
+a img {
+  display: inline-block; 
+  transition: transform 0.5s ease;
+  transform-origin: center center;
+}
+
+a:hover img {
+  transform: rotate(360deg);
+}
+
+#knight-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#knight-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  position: relative;
+  font-family: sans-serif;
+}
+
+#knight-modal h3 {
+  margin-top: 0;
+}
+
+#knight-modal ul {
+  padding-left: 20px;
+}
+
+#close-knight-modal {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#close-knight-modal:hover {
+  color: red;
+}
+
+#knight-modal ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#knight-modal li {
+  margin-bottom: 10px; 
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+#knight-info-btn {
+  height: fit-content;
+  font-size: xx-large;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: transform 0.5s ease;
+}
+
+#knight-info-btn:hover {
+  transform: scale(1.5);
 }
