@@ -1,6 +1,7 @@
 ### 🌐 Live Demo  
 > 👉 [See it live HERE](https://jomcbob.github.io/knights_travail/)
 
+---
 
 # ♞ Knight's Travail
 
