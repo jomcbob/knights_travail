@@ -1,5 +1,5 @@
 ### 🌐 Live Demo  
-> 👉 [We live here](https://jomcbob.github.io/knights_travail/)
+> 👉 [See it live HERE](https://jomcbob.github.io/knights_travail/)
 
 
 # ♞ Knight's Travail
